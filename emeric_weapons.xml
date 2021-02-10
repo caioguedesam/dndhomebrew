@@ -14,10 +14,10 @@
 			<set name="enhancement">1</set>
         </setters>
         <rules>
-            <stat name="nature:misc" value="2" />
-            <stat name="medicine:misc" value="2" />
-            <stat name="animal handling:misc" value="2" />
-            <stat name="survival:misc" value="2" />
+            <stat name="nature:misc" value="2" bonus="moon sickle" />
+			<stat name="medicine:misc" value="2" bonus="moon sickle" />
+            <stat name="animal handling:misc" value="2" bonus="moon sickle" />
+            <stat name="survival:misc" value="2" bonus="moon sickle" />
         </rules>
     </element>
 </elements>
