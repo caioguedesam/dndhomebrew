@@ -34,7 +34,7 @@
         </setters>
     </element>
 
-    <element name="Staff of Cubic Cultivation" type="Magic Item" source="source" id="ID_EMERIC_MAGIC_ITEM_STAFF_OF_CUBIC_CULTIVATION">
+    <element name="Staff of Cubic Cultivation" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_STAFF_OF_CUBIC_CULTIVATION">
         <description>
             <p>This staff has a perfect cube of blue crystal at its top that slowly drips with a viscous ooze. The staff has 10 charges. As an action, you can tap the head of the staff on the ground and expend 1 or more of its charges to create a 5-foot cube of a mysterious, gelatinous material for each expended charge. Each cube appears in an unoccupied space within 5 feet of you or adjacecnt to another cube you create as part of this action. The cubes are translucent objects that have AC 10, 20 hit points and resistance to acid damage. Creating a cube in a space smaller than 5 feet across causes the cube to squeeze and fit the space. A cube remains for 1 minute or until it's reduced to 0 hit points, after which it dissolves into a puddle of slime and vanishes.</p>
             <p class="indent">You can climb or walk on the cubes. However, their sticky surfaces are considered difficult terrain.</p>
@@ -49,6 +49,22 @@
             <set name="type">Staff</set>
             <set name="rarity">Uncommon</set>
             <set name="charges">10</set>
+        </setters>
+    </element>
+
+    <element name="Barkbark" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_BARKBARK">
+        <description>
+            <p>Barkbark is a sentient item that can be attuned to by spending 3 days bonding with it (Barkbark enjoys eating small branches). Barkbark does not speak any languages but understands all languages its owner speaks. Barkbark is inanimate until you cast Barkskin on it. While animated, Barkbark is a small object. Casting Barksin this way animates Barkbark for 24 hours, and does not require concentration. Barkbark can only have one instance of Barkskin cast on it at a time.</p>
+            <p class="indent"><b>Barkcage:</b> While Barkbark is animated, as a bonus action you can command Barkbark to walk to a space up to 30ft. away that you can see. If Barkbark moves to another creature's space this way, you can target the creature with Barkcage. The target must succeed on a Wisdom saving throw using your spell save DC (a creature can fail the saving throw willingly) or have its AC become 16, regardless of the armor it is wearing or spells affecting it. The target can make this saving throw again at the end of each of its turns. On a success, the target is no longer affected.</p>
+            <p class="indent">Once Barkbark uses this feature, it returns to your side and cannot do so again until 24 hours have passed.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement" addition="by a druid or ranger">true</set>
         </setters>
     </element>
 </elements>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <info>
-        <name></name>
-        <update version="0.0.1">
-            <file name="emeric_weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/emeric_weapons.xml" />
-        </update>
-    </info>
-    
-    
-    <element name="Sylvan Sickle" type="Magic Item" source="source" id="ID_EMERIC_MAGIC_ITEM_SYLVAN_SICKLE">
+    <element name="Sylvan Sickle" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_SYLVAN_SICKLE">
         <description>
             <p></p>
             <p class="indent"></p>
         </description>
         <setters>
-            <set name="category">Wondrous Items</set>
+            <set name="keywords">druid</set>
+            <set name="category">Magic Weapon</set>
             <set name="cost" currency="gp">0</set>
             <set name="weight" lb="0">0 lb.</set>
-            <set name="type">Wondrous Item</set>
-            <set name="rarity">Common</set>
+            <set name="type" addition="any sickle">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="enhancement">1</set>
+            <set name="attunement">true</set>
         </setters>
+        <rules>
+            <stat name="nature:misc" value="2" />
+            <stat name="medicine:misc" value="2" />
+            <stat name="animal handling:misc" value="2" />
+            <stat name="survival:misc" value="2" />
+        </rules>
     </element>
 </elements>
