@@ -6,14 +6,12 @@
             <p class="indent"></p>
         </description>
         <setters>
-            <set name="keywords">druid</set>
-            <set name="category">Magic Weapon</set>
-            <set name="cost" currency="gp">0</set>
-            <set name="weight" lb="0">0 lb.</set>
-            <set name="type" addition="any sickle">Weapon</set>
-            <set name="rarity">Uncommon</set>
-            <set name="enhancement">1</set>
-            <set name="attunement">true</set>
+            <set name="keywords">sickle, druid, ranger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Sickle</set>
+			<set name="enhancement">1</set>
         </setters>
         <rules>
             <stat name="nature:misc" value="2" />
