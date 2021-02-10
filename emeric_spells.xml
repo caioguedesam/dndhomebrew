@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Brenatto's Voltaic Bolt" type="Spell" source="Emeric" id="ID_EMERIC_SPELL_BRENATTOS_VOLTAIC_BOLT">
+        <supports>Wizard</supports>
+        <description>
+            <p>You charge an arrow or bolt with thunder magic, prior to firing it. It provides additional 3d6 lightning damage if the shot hits.</p>
+            <p class="indent"><b>At Higher Levels:</b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">5ft.</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">A crossbow's bolt or a bow's arrow</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+</elements>

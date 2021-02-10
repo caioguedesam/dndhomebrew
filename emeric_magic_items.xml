@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Beastly Tome" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_BEASTLY_TOME">
+        <description>
+            <p>When opened, the book releases a menacing growl and a dark portal opens on its center. A large hand shaped like a claw emerges from the portal and attacks you with cruel precision, blinding you for "ripping off its eye". The claw is then pulled back to the portal, and the book disappears with a high-pitched crackling sound.</p>
+            <p class="indent">After being attacked by the claw, you gain proficiency in Survival. If you're already proficient, you acquire expertise.</p>
+            <p class="indent"><b>Curse:</b> After being attacked by the claw, you have a missing eye. You can still see normally as if nothing happened. You have -1 in Charisma. This curse is removable with spells like Remove Curse.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <stat name="charisma" value="-1" />
+        </rules>
+    </element>
+
+    <element name="Wisp Cloak" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_WISP_CLOAK">
+        <description>
+            <p>This near-weightless cloak billows softly even without wind. While wearing this cloak, you have advantage on death saving throws and can move normally through the space of any Medium or smaller creature once on each of your turns, but can't stop there.</p>
+            <p class="indent"><b>Curse:</b> This cloak is cursed by the spirit of a person who was betrayed by a close friend while wearing it. Once you wear this cursed cloak, you can't remove it unless you are targeted by the Remove Curse spell or similar magic. While wearing the cloak, whenever you move within 10 feet of a friendly creature with 0 hit points for the first time on each of your turns, that creature must succeed on a DC 13 Constitution saving throw or automatically fail a death saving throw.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+
+    <element name="Staff of Cubic Cultivation" type="Magic Item" source="source" id="ID_EMERIC_MAGIC_ITEM_STAFF_OF_CUBIC_CULTIVATION">
+        <description>
+            <p>This staff has a perfect cube of blue crystal at its top that slowly drips with a viscous ooze. The staff has 10 charges. As an action, you can tap the head of the staff on the ground and expend 1 or more of its charges to create a 5-foot cube of a mysterious, gelatinous material for each expended charge. Each cube appears in an unoccupied space within 5 feet of you or adjacecnt to another cube you create as part of this action. The cubes are translucent objects that have AC 10, 20 hit points and resistance to acid damage. Creating a cube in a space smaller than 5 feet across causes the cube to squeeze and fit the space. A cube remains for 1 minute or until it's reduced to 0 hit points, after which it dissolves into a puddle of slime and vanishes.</p>
+            <p class="indent">You can climb or walk on the cubes. However, their sticky surfaces are considered difficult terrain.</p>
+            <p class="indent">The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the gem on top of the staff shatters and is destroyed, creating a gelatinous cube in it's place that's hostile towards you. When this happens, the staff becomes a nonmagical quarterstaff.</p>
+        </description>
+        <setters>
+            <set name="category">Staffs</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="weapon">Quarterstaff</set>
+            <set name="type">Staff</set>
+            <set name="rarity">Uncommon</set>
+            <set name="charges">10</set>
+        </setters>
+    </element>
+</elements>
