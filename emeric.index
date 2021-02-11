@@ -2,12 +2,14 @@
 <index>
     <info>
         <name>Emeric</name>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="emeric.index" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric.index" />
         </update>
     </info>
     <files>
+        <file name="emeric_source.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_source.xml" />
         <file name="emeric_magic_items.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_magic_items.xml" />
         <file name="emeric_spells.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_spells.xml" />
+        <file name="emeric_weapons.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_weapons.xml" />
     </files>
 </index>

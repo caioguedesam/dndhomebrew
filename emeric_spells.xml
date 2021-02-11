@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <update version="0.0.1">
+            <file name="emeric_spells.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_spells.xml" />
+        </update>
+    </info>
+
     <element name="Brenatto's Voltaic Bolt" type="Spell" source="Emeric" id="ID_EMERIC_SPELL_BRENATTOS_VOLTAIC_BOLT">
         <supports>Wizard</supports>
         <description>

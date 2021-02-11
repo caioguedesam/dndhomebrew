@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <update version="0.0.1">
+            <file name="emeric_magic_items.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_magic_items.xml" />
+        </update>
+    </info>
     <element name="Beastly Tome" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_BEASTLY_TOME">
         <description>
             <p>When opened, the book releases a menacing growl and a dark portal opens on its center. A large hand shaped like a claw emerges from the portal and attacks you with cruel precision, blinding you for "ripping off its eye". The claw is then pulled back to the portal, and the book disappears with a high-pitched crackling sound.</p>

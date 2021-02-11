@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+        <update version="0.0.1">
+            <file name="emeric_weapons.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_weapons.xml" />
+        </update>
+    </info>
     <element name="Sylvan Sickle" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_SYLVAN_SICKLE">
         <description>
-            <p></p>
+            <p>Test</p>
             <p class="indent"></p>
         </description>
         <setters>
