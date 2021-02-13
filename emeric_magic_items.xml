@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="emeric_magic_items.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_magic_items.xml" />
         </update>
     </info>
@@ -16,10 +16,11 @@
             <set name="cost" currency="gp">0</set>
             <set name="weight" lb="0">0 lb.</set>
             <set name="type">Wondrous Item</set>
+            <set name="attunement">true</set>
             <set name="rarity">Uncommon</set>
         </setters>
         <rules>
-            <stat name="survival:proficiency" value="proficiency" bonus="double" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
         </rules>
     </element>
 
