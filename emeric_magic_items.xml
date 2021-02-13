@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="emeric_magic_items.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_magic_items.xml" />
         </update>
     </info>
@@ -20,7 +20,6 @@
         </setters>
         <rules>
             <stat name="survival:proficiency" bonus="double" />
-            <stat name="charisma" value="-1" />
         </rules>
     </element>
 
