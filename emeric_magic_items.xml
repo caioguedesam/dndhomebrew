@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="emeric_magic_items.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_magic_items.xml" />
         </update>
     </info>
@@ -19,7 +19,7 @@
             <set name="rarity">Uncommon</set>
         </setters>
         <rules>
-            <stat name="survival:proficiency" bonus="double" />
+            <stat name="survival:proficiency" value="proficiency" bonus="double" />
         </rules>
     </element>
 
