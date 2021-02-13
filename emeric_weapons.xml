@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="emeric_weapons.xml" url="https://raw.githubusercontent.com/caioguedesam/dndhomebrew/master/emeric_weapons.xml" />
         </update>
     </info>
     <element name="Sylvan Sickle" type="Magic Item" source="Emeric" id="ID_EMERIC_MAGIC_ITEM_SYLVAN_SICKLE">
         <description>
-            <p>Test</p>
-            <p class="indent"></p>
+            <p>After some steps in the Druidic circles the champions of nature are gifted with this enchanted weapon.</p>
+            <p class="indent"><b>Friend of the Woods:</b> You gain +2 on Nature, Medicine, Animal Handling and Survival checks.</p>
         </description>
         <setters>
             <set name="keywords">sickle, druid, ranger</set>
@@ -24,5 +24,24 @@
             <stat name="animal handling:misc" value="2" bonus="moon sickle" />
             <stat name="survival:misc" value="2" bonus="moon sickle" />
         </rules>
+    </element>
+
+    <element name="Boleadoras" type="Weapon" source="Emeric" id="ID_EMERIC_ITEM_BOLEADORAS">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+        <description>
+            <p>This item has been a hunter's aid since historic times. It is made up of a number of weights bound together by lengths of cord, simple and stunningly effective in the right hands. It is designed to be thrown through the air in a blinding whirl, ready to ensnare prey.</p>
+            <p class="indent"><b>Special:</b> When a medium or smaller creature is hit by a Bola, they are considered <b>restrained</b>. If a flying creature is dependent on wings, this condition will cause them to fall. This has no effect on creatures lacking form or larger than medium size.</p>
+            <p class="indent">Once restrained, the creature or a creature within reach can take an action to attempt to free the binding at a DC 10 Strength check.</p>
+            <p class="indent">The bolas can also be targeted by an attack. A successful hit (AC 10) that deals over 5 damage frees the creature without harming it. This destroys the standard bolas, leaving the weights intact.</p>
+            <div element="ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_NET" />
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">30/60</set>
+            <set name="damage">—</set>
+        </setters>
     </element>
 </elements>
